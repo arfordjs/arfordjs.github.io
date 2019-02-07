@@ -13,3 +13,8 @@ output:
   html_document:
     theme: cerulean
     highlight: haddock
+    
+right:
+    - text: ""
+      icon: fa-github fa-lg
+      href: https://github.com/arfordjs/arfordjs.github.io
