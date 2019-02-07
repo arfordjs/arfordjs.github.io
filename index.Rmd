@@ -1,5 +1,19 @@
 ---
-title: "My Website"
+title: "Welcome!"
 ---
 
-Hello, Website!
+Welcome to my website! My name is Josh Arford and I am currently a student at Appalachian State University. This website includes my interests, resume, and conducted research. I can be contacted at **arfordjs@appstate.edu**.
+
+
+
+* Interests
+    + Outdoors
+    + Math and Business
+    + Soccer, Football, and Lifting
+        
+
+
+
+
+
+![Pigeon River, Canton, NC. Keeping the River Clean!](https://pbs.twimg.com/media/DTr8H0sW0AAOtJn.jpg)

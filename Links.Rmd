@@ -1,0 +1,13 @@
+---
+title: "Research"
+output: html_document
+---
+**Modular Arithmetic and Music Theory**
+
+  Four other Appalachian State students and I recently conducted research and gave a presentation in modular arithmetic and music theory. Dr. Vicky Klima gave us all the tools and information we needed to conduct this presentation. The information is located in the slides down below. More information can be found [here](http://elliotthauser.com/openmusictheory/) in the Open Music Theory textbook
+
+
+
+```{r, out.width = "800px", out.height= 800, echo = FALSE}
+knitr::include_graphics("https://mathr.math.appstate.edu/s/41ef5617d21f2ce3b177e/files/git/Version%20Control/arfordjs.github.io/S_STEM%20Presentation.pdf")
+```

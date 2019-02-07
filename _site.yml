@@ -2,14 +2,14 @@ name: "Joshua Arford"
 output_dir: "."
 
 navbar:
-  title: "Josh"
+  title: "Home"
   left:
     - text: "Resume"
       href: resume.html
-    - text: "Pagetitle"
-      href: pagename.html
+    - text: "Research"
+      href: Links.html
 
 output:
   html_document:
-    theme: default
-    highlight: default
+    theme: cerulean
+    highlight: haddock
