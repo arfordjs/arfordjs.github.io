@@ -2,7 +2,7 @@
 title: "Welcome!"
 ---
 
-Welcome to my website! My name is Josh Arford and I am currently a student at Appalachian State University. This website includes my interests, resume, and conducted research. I can be contacted at **arfordjs@appstate.edu**. [Git](https://github.com/arfordjs/arfordjs.github.io)
+Welcome to my website! My name is Josh Arford and I am currently a student at Appalachian State University. This website includes my interests, resume, and conducted research. I can be contacted at **arfordjs@appstate.edu**. 
 
 
 
