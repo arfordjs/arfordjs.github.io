@@ -8,6 +8,8 @@ output: html_document
 
 
 
-```{r, out.width = "800px", out.height= 800, echo = FALSE}
-knitr::include_graphics("https://mathr.math.appstate.edu/s/41ef5617d21f2ce3b177e/files/git/Version%20Control/arfordjs.github.io/S_STEM%20Presentation.pdf")
-```
+
+<iframe src="S_STEM Presentation.pdf" width="100%" height="500px">
+
+</iframe>
+

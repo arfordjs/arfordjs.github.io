@@ -1,20 +1,33 @@
+
 name: "Joshua Arford"
 output_dir: "."
 
 navbar:
-  title: "Home"
+  title: "Joshua Arford"
   left:
     - text: "Resume"
       href: resume.html
     - text: "Research"
-      href: Links.html
+      href: research.html
+    - text: "Index"
+      href: index.html
+  right:
     - text: ""
       icon: fa-github fa-lg
       href: https://github.com/arfordjs/arfordjs.github.io
+  output:
+    html_document:
+      theme: curulean
+      highlight: haddock
 
-output:
-  html_document:
-    theme: cerulean
-    highlight: haddock
+
+
+
+
+
+
+
+
+
     
     

@@ -15,14 +15,31 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -54,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -175,8 +190,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -250,6 +263,15 @@ $(document).ready(function () {
 
 
 
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
@@ -259,7 +281,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">Joshua Arford</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -267,18 +289,20 @@ $(document).ready(function () {
   <a href="resume.html">Resume</a>
 </li>
 <li>
-  <a href="Links.html">Research</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
+  <a href="index.html">Index</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
   <a href="https://github.com/arfordjs/arfordjs.github.io">
     <span class="fa fa-github fa-lg"></span>
      
     
   </a>
 </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -297,39 +321,53 @@ $(document).ready(function () {
 <div id="education" class="section level2">
 <h2>EDUCATION</h2>
 <p><strong>Appalachian State University, Boone, NC August 2018 - May 2020</strong></p>
-<p>Bachelor of Science in Mathematics</p>
-<p>Major: Mathematics</p>
-<p>Concentration: Business</p>
-<p><strong>GPA: 3.15</strong></p>
-<p>Asheville-Buncombe Technical Community College May 2018</p>
-<p>Associate in Arts</p>
-<p><strong>GPA: 3.42</strong></p>
+<ul>
+<li><p>Bachelor of Science in Mathematics</p></li>
+<li><p>Major: Mathematics</p></li>
+<li><p>Concentration: Business</p></li>
+<li><p>GPA: 3.15</p></li>
+</ul>
+<p><strong>Asheville-Buncombe Technical Community College May 2017- May 2018</strong></p>
+<ul>
+<li><p>Associate in Arts</p></li>
+<li><p>GPA: 3.42</p></li>
+</ul>
 </div>
 <div id="research-experience" class="section level2">
 <h2>RESEARCH EXPERIENCE</h2>
 <p><strong>Appalachian State University, NC August 2018 - Present</strong></p>
 <p><em>Student</em></p>
-<p>Conduct research in modular arithmetic and music theory with peers in similar degrees</p>
-<p>Propose bi-annual presentations to display progression of research development over time</p>
+<ul>
+<li><p>Conduct research in modular arithmetic and music theory with peers in similar degrees</p></li>
+<li><p>Propose bi-annual presentations to display progression of research development over time</p></li>
+</ul>
 </div>
 <div id="involvement" class="section level2">
 <h2>INVOLVEMENT</h2>
 <p><strong>S-STEM Program August 2018 - Present</strong></p>
 <p><em>Member</em></p>
-<p>Attend weekly seminars with fellow S-STEM scholars, including leadership workshops and</p>
+<ul>
+<li>Attend weekly seminars with fellow S-STEM scholars, including leadership workshops and</li>
+</ul>
 <p>lectures given by highly accredited researchers in STEM fields</p>
-<p>Participate in bi-weekly study halls in order to accomplish academic goals</p>
+<ul>
+<li>Participate in bi-weekly study halls in order to accomplish academic goals</li>
+</ul>
 </div>
 <div id="volunteer-experience" class="section level2">
 <h2>VOLUNTEER EXPERIENCE</h2>
 <p><strong>Adopt-a-Stream, Canton, NC October 2017</strong></p>
 <p><em>Volunteer</em></p>
-<p>Assisted Tom Anspach with Adopt-a-Stream waterway cleanup in the Pigeon River</p>
-<p>Decontaminated the river from more than 50 pounds of waste using canoes and kayaks</p>
+<ul>
+<li><p>Assisted Tom Anspach with Adopt-a-Stream waterway cleanup in the Pigeon River</p></li>
+<li><p>Decontaminated the river from more than 50 pounds of waste using canoes and kayaks</p></li>
+</ul>
 <p><strong>The Open Door Ministries, Waynesville, NC December 2015 -February 2016</strong></p>
 <p><em>Volunteer</em></p>
-<p>Provided homemade meals for hundreds of homeless citizens in the Waynesville area</p>
-<p>Contributed in almost a dozen sessions by cooking, cleaning and serving at the shelter</p>
+<ul>
+<li><p>Provided homemade meals for hundreds of homeless citizens in the Waynesville area</p></li>
+<li><p>Contributed in almost a dozen sessions by cooking, cleaning and serving at the shelter</p></li>
+</ul>
 </div>
 
 
